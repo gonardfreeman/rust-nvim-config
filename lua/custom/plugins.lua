@@ -24,6 +24,38 @@ local plugins = {
     "mrcjkb/rustaceanvim",
     version = "^5",
     lazy = false,
+    config = function()
+      vim.keymap.set(
+        "n",
+        "<Leader>rr",
+        function ()
+          vim.cmd.RustLsp("runnables")
+        end,
+        {
+          desc = "runnable"
+        }
+      )
+      vim.keymap.set(
+        "n",
+        "<Leader>rd",
+        function ()
+          vim.cmd.RustLsp("debuggable")
+        end,
+        {
+          desc = "debuggable"
+        }
+      )
+      vim.keymap.set(
+        "n",
+        "<Leader>rc",
+        function ()
+          vim.cmd.RustLsp('openCargo')
+        end,
+        {
+          desc = "open-cargo"
+        }
+      )
+    end,
   },
   {
     "nvim-neotest/nvim-nio"
