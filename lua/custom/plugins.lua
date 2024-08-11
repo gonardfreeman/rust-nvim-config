@@ -39,10 +39,20 @@ local plugins = {
         "n",
         "<Leader>rd",
         function ()
-          vim.cmd.RustLsp("debuggable")
+          vim.cmd.RustLsp("debuggables")
         end,
         {
           desc = "debuggable"
+        }
+      )
+      vim.keymap.set(
+        "n",
+        "<Leader>rp",
+        function ()
+          vim.cmd.RustLsp { "runnables", bang = true }
+        end,
+        {
+          desc = "runnable prev run"
         }
       )
       vim.keymap.set(
