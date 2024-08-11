@@ -81,16 +81,6 @@ local plugins = {
       require("dapui").setup()
     end
   },
-  {
-    "lewis6991/gitsigns.nvim",
-    config = function()
-      require("gitsigns").setup({})
-      -- nsd
-    end
-  },
-  {
-    "tpope/vim-fugitive",
-  },
 }
 
 return plugins
