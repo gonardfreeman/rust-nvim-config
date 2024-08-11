@@ -23,6 +23,7 @@ To install run `git clone https://github.com/gonardfreeman/rust-nvim-config.git 
 ## RustLsp
 
 - `<Leader>rr` - run runnables. Same as `:RustLsp runnables`. Build and run your code
+- `<Leader>rp` - run previous run.
 - `<Leader>rd` - run debuggables. Same as `:RustLsp debuggables`. Build and debug your code
 - `<Leader>rc` - open `Cargo.toml`
 
