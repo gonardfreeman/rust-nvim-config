@@ -2,13 +2,13 @@
 
 This is my slightly updated version of settings for NeoVim Rust IDE with Catpuccin theme.
 ## Packages:
-- (NVChad)[https://nvchad.com]
-- (Catpuccin)[https://github.com/catppuccin/nvim]
-- (Mason)[https://github.com/williamboman/mason.nvim]
-- (Lsp-config)[https://github.com/neovim/nvim-lspconfig]
-- (rustaceanvim)[https://github.com/mrcjkb/rustaceanvim]
-- (nvim-dap)[https://github.com/mfussenegger/nvim-dap]
-- (nvim-dap-ui)[https://github.com/rcarriga/nvim-dap-ui]
+- [NVChad](https://nvchad.com)
+- [Catpuccin](https://github.com/catppuccin/nvim)
+- [Mason](https://github.com/williamboman/mason.nvim)
+- [Lsp-config](https://github.com/neovim/nvim-lspconfig)
+- [rustaceanvim](https://github.com/mrcjkb/rustaceanvim)
+- [nvim-dap](https://github.com/mfussenegger/nvim-dap)
+- [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui)
 Other packages are required by listed above
 
 # Install
@@ -44,5 +44,7 @@ To install run `git clone https://github.com/gonardfreeman/rust-nvim-config.git 
 
 # nvim-dap
 
-In order to setup dap you need (lldb)[https://lldb.llvm.org] debugger on your system. 
-Installation may vary from OS to OS, for example in mac you need to use (brew)[https://formulae.brew.sh/formula/llvm], but for all systems you need to add it to PATH variable separately. Even if it works W/O adding it (at least it helped me). 
+In order to setup dap you need [lldb](https://lldb.llvm.org )debugger on your system. 
+Installation may vary from OS to OS, for example in mac 
+you need to use [brew](https://formulae.brew.sh/formula/llvm),
+but for all systems you need to add it to PATH variable separately. Even if it works W/O adding it (at least it helped me). 
