@@ -7,7 +7,29 @@ M.ui = {
 M.plugins = 'custom.plugins'
 M.mappings = {
   gitsigns = {
+    i = {
+      ["<F2>"] = {
+        function()
+          vim.lsp.buf.rename()
+        end,
+        "Smart rename"
+      },
+    },
+    v = {
+      ["<Leader>rx"] = {
+        function()
+          vim.lsp.buf.rename()
+        end,
+        "Smart rename"
+      }
+    },
     n = {
+      ["<Leader>rx"] = {
+        function()
+          vim.lsp.buf.rename()
+        end,
+        "Smart Rename",
+      },
       ["<Leader>gj"] = {
         function()
           require("gitsigns").next_hunk()
