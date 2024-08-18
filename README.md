@@ -20,6 +20,20 @@ To install run `git clone https://github.com/gonardfreeman/rust-nvim-config.git 
 
 `<Leader>` means in normal mode you need to hit space and wait until menu will be opened
 
+## Rename
+
+### Insert mode
+
+- `<F2>` - smart rename, VS code like
+
+### Normal mode
+
+- `<Leader>rx` - smart rename, VS code like
+
+### Visual mode
+
+- `<Leader>rx` - smart rename, VS code like
+
 ## RustLsp
 
 - `<Leader>rr` - run runnables. Same as `:RustLsp runnables`. Build and run your code
