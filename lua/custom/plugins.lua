@@ -1,4 +1,12 @@
+-- local js_plugins = require('js')
+
 local plugins = {
+  {
+    "pmizio/typescript-tools.nvim",
+    dependencies = { "nvim-lua/plenary.nvim", "neovim/nvim-lspconfig" },
+    opts = {},
+  },
+  -----------RUST-----------
   {
     "williamboman/mason.nvim",
     opts = {
@@ -124,5 +132,9 @@ local plugins = {
     end
   },
 }
+
+-- for _, plug in ipairs(js_plugins) do
+--   table.insert(plugins, plug)
+-- end
 
 return plugins
